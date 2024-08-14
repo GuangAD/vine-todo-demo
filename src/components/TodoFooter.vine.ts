@@ -1,6 +1,5 @@
 import { computed } from 'vue'
 import { useRoute } from 'vue-router'
-
 function TodoFooter(props: { todos: IToDo[] }) {
   // const props = defineProps(['todos'])
   const route = useRoute()
